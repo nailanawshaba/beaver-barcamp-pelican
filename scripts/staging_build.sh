@@ -14,7 +14,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Build the site
-make publish
+make staging
 
 # Disable venv
 deactivate
